@@ -2,7 +2,7 @@ import logging
 
 from flask import Flask
 from flask_appbuilder import AppBuilder, SQLA
-
+from sqlalchemy.orm import scoped_session
 """
  Logging configuration
 """
